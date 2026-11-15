@@ -6,6 +6,8 @@
 
 ## 打开方式
 
+- 线上（iPad 用）：https://luoyt0212-code.github.io/biliselected/ （GitHub Pages，推送 `main` 后约 1 分钟更新）
+
 - 直接双击 `index.html`（纯静态，不需要服务器）
 - 或本地起一个服务：`python3 -m http.server 8765`，访问 http://localhost:8765
 
