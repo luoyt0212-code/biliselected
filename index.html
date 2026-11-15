@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="referrer" content="no-referrer">
+  <title>Biliselected · AI 探险主线</title>
+  <!-- iPad「添加到主屏幕」后像 App 一样全屏打开 -->
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-title" content="AI 探险">
+  <meta name="apple-mobile-web-app-status-bar-style" content="default">
+  <meta name="theme-color" content="#f6f4ef" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#14161b" media="(prefers-color-scheme: dark)">
+  <link rel="apple-touch-icon" href="icons/icon-180.png">
+  <link rel="icon" href="icons/icon.svg" type="image/svg+xml">
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="topbar">
+    <a class="logo" href="#/">Bili<span>selected</span></a>
+    <nav class="nav">
+      <a href="#/" data-nav="home">🗺 主线</a>
+      <a href="#/badges" data-nav="badges">🏅 徽章</a>
+      <a href="#/parent" data-nav="parent">家长</a>
+    </nav>
+  </header>
+  <main id="app"></main>
+  <div id="modal"></div>
+  <div id="toast" role="status" aria-live="polite"></div>
+
+  <!-- 纯静态：数据在 data.js，逻辑在 app.js -->
+  <script src="data.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
